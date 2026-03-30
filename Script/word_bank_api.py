@@ -69,7 +69,7 @@ for name, code in indicators.items():
                     year = int(item["date"])
                 except:
                     continue
-                if 2010 <= year <= 2026:
+                if 2010 <= year <= 2024:
                     all_data.append({
                         "country": item["country"]["value"],
                         "year": year,
